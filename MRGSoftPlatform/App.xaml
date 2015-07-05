@@ -1,0 +1,18 @@
+﻿<Application x:Class="MRGSoftPlatform.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="UI/Windows.xaml"/>
+                <ResourceDictionary Source="UI/StatusBar.xaml"/>
+                <ResourceDictionary Source="UI/Tab.xaml"/>
+                <ResourceDictionary Source="UI/Tabitem.xaml"/>
+                <ResourceDictionary Source="UI/Button.xaml"/>
+                <ResourceDictionary Source="UI/Menu.xaml"/>
+                <ResourceDictionary Source="UI/List.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
