@@ -1,0 +1,9 @@
+G:\Study\C#SoftProgram\MRGSoftPlatform\MathADD\bin\Debug\MathADD.dll
+G:\Study\C#SoftProgram\MRGSoftPlatform\MathADD\bin\Debug\MathADD.pdb
+G:\Study\C#SoftProgram\MRGSoftPlatform\MathADD\bin\Debug\MRGPluginInterface.dll
+G:\Study\C#SoftProgram\MRGSoftPlatform\MathADD\bin\Debug\MRGPluginInterface.pdb
+G:\Study\C#SoftProgram\MRGSoftPlatform\MathADD\obj\Debug\MathADD.csprojResolveAssemblyReference.cache
+G:\Study\C#SoftProgram\MRGSoftPlatform\MathADD\obj\Debug\MathADD.Form1.resources
+G:\Study\C#SoftProgram\MRGSoftPlatform\MathADD\obj\Debug\MathADD.csproj.GenerateResource.Cache
+G:\Study\C#SoftProgram\MRGSoftPlatform\MathADD\obj\Debug\MathADD.dll
+G:\Study\C#SoftProgram\MRGSoftPlatform\MathADD\obj\Debug\MathADD.pdb

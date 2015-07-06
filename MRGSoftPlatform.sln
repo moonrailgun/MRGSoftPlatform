@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRGSoftPlatform", "MRGSoftPlatform\MRGSoftPlatform.csproj", "{ACC7D3DE-E087-4C14-B457-06CB27E8AE3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRGPluginInterface", "MRGPluginInterface\MRGPluginInterface.csproj", "{1E2A11B5-2572-4A91-A214-BE49D3B418BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathADD", "MathADD\MathADD.csproj", "{76EC508E-9B05-4BB4-B13E-DB88000D282C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{ACC7D3DE-E087-4C14-B457-06CB27E8AE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACC7D3DE-E087-4C14-B457-06CB27E8AE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACC7D3DE-E087-4C14-B457-06CB27E8AE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E2A11B5-2572-4A91-A214-BE49D3B418BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E2A11B5-2572-4A91-A214-BE49D3B418BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E2A11B5-2572-4A91-A214-BE49D3B418BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E2A11B5-2572-4A91-A214-BE49D3B418BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76EC508E-9B05-4BB4-B13E-DB88000D282C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EC508E-9B05-4BB4-B13E-DB88000D282C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EC508E-9B05-4BB4-B13E-DB88000D282C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EC508E-9B05-4BB4-B13E-DB88000D282C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
