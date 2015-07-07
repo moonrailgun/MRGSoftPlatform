@@ -122,10 +122,12 @@ namespace MRGSoftPlatform
             list1.Items.Add(vPlug.PlugName);*/
             try
             {
-                GirdItem button = new GirdItem("Image/fullbox_desk_clear.png", vPlug.PlugName);
-                PluginGrid.Children.Add(button);
-                button.SetValue(Grid.RowProperty, 2);
-                button.SetValue(Grid.ColumnProperty, 0);
+                GridItem button = new GridItem("Image/fullbox_desk_clear.png", vPlug.PlugName);
+                int pluNum = this.vPlugs.Length;
+                int x = (pluNum - 1) % 6;
+                int y = (pluNum - 1) / 6;
+                AddToGrid(button, x, y);
+                //----超出部分未处理
 
                 return true;
             }
@@ -134,6 +136,13 @@ namespace MRGSoftPlatform
                 MessageBox.Show(ex.ToString());
                 return false;
             }
+        }
+
+        private void AddToGrid(GridItem item, int x, int y)
+        {
+            PluginGrid.Children.Add(item);
+            item.SetValue(Grid.ColumnProperty, x);
+            item.SetValue(Grid.RowProperty, y);
         }
 
         /// <summary>

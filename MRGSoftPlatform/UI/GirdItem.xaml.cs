@@ -18,9 +18,9 @@ namespace MRGSoftPlatform.UI
     /// <summary>
     /// GirdItem.xaml 的交互逻辑
     /// </summary>
-    public partial class GirdItem : UserControl
+    public partial class GridItem : UserControl
     {
-        public GirdItem(string PluginImage, string PluginName)
+        public GridItem(string PluginImage, string PluginName)
         {
             InitializeComponent();
 

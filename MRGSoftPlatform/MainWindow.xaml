@@ -49,8 +49,6 @@
                         <ColumnDefinition Width="141.3" />
                         <ColumnDefinition Width="141.3" />
                     </Grid.ColumnDefinitions>
-                    <Button  Grid.Row="3" Grid.Column="1"/>
-                    <Button  Grid.Row="3" Grid.Column="5"/>
                 </Grid>
             </TabItem>
             <TabItem Header="插件开发" Margin="280,22,0,0" Height="76.933" Width="69.044" Style="{DynamicResource TabItemStyle}" Foreground="White">
