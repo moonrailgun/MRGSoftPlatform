@@ -21,3 +21,5 @@ G:\Study\C#SoftProgram\MRGSoftPlatform\MRGSoftPlatform\obj\Debug\App.baml
 G:\Study\C#SoftProgram\MRGSoftPlatform\MRGSoftPlatform\obj\Debug\UI\Menu.baml
 G:\Study\C#SoftProgram\MRGSoftPlatform\MRGSoftPlatform\bin\Debug\MRGPluginInterface.dll
 G:\Study\C#SoftProgram\MRGSoftPlatform\MRGSoftPlatform\bin\Debug\MRGPluginInterface.pdb
+G:\Study\C#SoftProgram\MRGSoftPlatform\MRGSoftPlatform\obj\Debug\UI\GirdItem.baml
+G:\Study\C#SoftProgram\MRGSoftPlatform\MRGSoftPlatform\obj\Debug\UI\GirdItem.g.cs

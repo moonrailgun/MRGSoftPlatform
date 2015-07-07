@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using System.Reflection;
 using System.IO;
 using MRGPluginInterface;
+using MRGSoftPlatform.UI;
 
 namespace MRGSoftPlatform
 {
@@ -53,24 +54,8 @@ namespace MRGSoftPlatform
 
         private void ksl_Click(object sender, RoutedEventArgs e)
         {
-            //list1.Items.Clear();//清除所有
+            list1.Items.Clear();//清除所有
             LoadPlugIn();//加载插件
-            /*
-            if (list1.Items.Count > 2)
-            {
-                return;
-            }
-            list1.Items.Add("撸一把!");
-            list1.Items.Add("大家一起撸!");
-            list1.Items.Add("一起撸!一起撸!");
-            list1.Items.Add("撸下来!");
-            list1.Items.Add("撸下来!撸下来!");
-            list1.Items.Add("撸个痛快!");
-            list1.Items.Add("看不清了!");
-            list1.Items.Add("撸的太多了吗？");
-            list1.Items.Add("撸大师！");
-            list1.Items.Add("一起撸大师！");
-             */
         }
 
         // 载入插件  
@@ -132,14 +117,23 @@ namespace MRGSoftPlatform
         public bool Register(IPlugin vPlug)
         {
             /*
-            ToolStripButton mn = new ToolStripButton();
-            mn.Text = vPlug.PlugName;
-            mn.Click += new EventHandler(NewLoad);
-            toolStrip1.Items.Add(mn);*/
             ListBoxItem item = new ListBoxItem();
             item.MouseDoubleClick += NewLoad;
-            list1.Items.Add(vPlug.PlugName);
-            return true;
+            list1.Items.Add(vPlug.PlugName);*/
+            try
+            {
+                GirdItem button = new GirdItem("Image/fullbox_desk_clear.png", vPlug.PlugName);
+                PluginGrid.Children.Add(button);
+                button.SetValue(Grid.RowProperty, 2);
+                button.SetValue(Grid.ColumnProperty, 0);
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+                return false;
+            }
         }
 
         /// <summary>
