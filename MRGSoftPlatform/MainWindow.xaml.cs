@@ -27,9 +27,12 @@ namespace MRGSoftPlatform
         ///所有插件的集合  
         private MRGPluginInterface.IPlugin[] vPlugs;
 
+        private List<IPlugin> regPluginList;
+
         public MainWindow()
         {
             InitializeComponent();
+            regPluginList = new List<IPlugin>();
         }
 
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
@@ -101,6 +104,7 @@ namespace MRGSoftPlatform
                     MessageBox.Show(ex.Message);
                 }
             }
+
             if (vPlugs.Length > 0)
             {
                 MessageBox.Show(string.Format("载入插件成功，共获取{0}个插件", vPlugs.Length));
@@ -122,11 +126,14 @@ namespace MRGSoftPlatform
             list1.Items.Add(vPlug.PlugName);*/
             try
             {
+                this.regPluginList.Add(vPlug);//添加到已注册列表
+
                 GridItem button = new GridItem("Image/fullbox_desk_clear.png", vPlug.PlugName);
-                int pluNum = this.vPlugs.Length;
+                int pluNum = this.regPluginList.Count;
                 int x = (pluNum - 1) % 6;
                 int y = (pluNum - 1) / 6;
                 AddToGrid(button, x, y);
+
                 //----超出部分未处理
 
                 return true;
@@ -143,6 +150,8 @@ namespace MRGSoftPlatform
             PluginGrid.Children.Add(item);
             item.SetValue(Grid.ColumnProperty, x);
             item.SetValue(Grid.RowProperty, y);
+            item.HorizontalAlignment = System.Windows.HorizontalAlignment.Center;
+            item.VerticalAlignment = System.Windows.VerticalAlignment.Center;
         }
 
         /// <summary>
