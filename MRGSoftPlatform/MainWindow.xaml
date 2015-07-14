@@ -28,7 +28,7 @@
                 <TabItem.Background>
                     <ImageBrush ImageSource="UI/Image/fullbox_function_exam.png" Stretch="Uniform"/>
                 </TabItem.Background>
-                <Grid/>
+                <Grid />
             </TabItem>
             <TabItem Header="插件管理" Margin="190,22,0,0" Height="76.933" Width="69.044" Style="{DynamicResource TabItemStyle}" Foreground="White">
                 <TabItem.Background>
