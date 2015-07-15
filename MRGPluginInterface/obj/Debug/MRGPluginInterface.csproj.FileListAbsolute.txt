@@ -2,3 +2,4 @@ G:\Study\C#SoftProgram\MRGSoftPlatform\MRGPluginInterface\bin\Debug\MRGPluginInt
 G:\Study\C#SoftProgram\MRGSoftPlatform\MRGPluginInterface\bin\Debug\MRGPluginInterface.pdb
 G:\Study\C#SoftProgram\MRGSoftPlatform\MRGPluginInterface\obj\Debug\MRGPluginInterface.dll
 G:\Study\C#SoftProgram\MRGSoftPlatform\MRGPluginInterface\obj\Debug\MRGPluginInterface.pdb
+G:\Study\C#SoftProgram\MRGSoftPlatform\MRGPluginInterface\obj\Debug\MRGPluginInterface.csprojResolveAssemblyReference.cache

@@ -67,7 +67,13 @@
                 <TabItem.Background>
                     <ImageBrush ImageSource="UI/Image/fullbox_reg_clean.png" Stretch="Uniform"/>
                 </TabItem.Background>
-                <Grid/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10*"/>
+                        <ColumnDefinition Width="4*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="1" Width="100" Height="40" Content="添加工具" FontSize="16" BorderBrush="AliceBlue" />
+                </Grid>
             </TabItem>
         </TabControl>
         <Button x:Name="x" Content="Button" HorizontalAlignment="Right" Height="24" Style="{DynamicResource xButtonStyle}" VerticalAlignment="Top" Width="39.75" Margin="0,1,0,0" Click="x_Click"/>
