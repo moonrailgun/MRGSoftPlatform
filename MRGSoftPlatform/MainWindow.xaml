@@ -72,7 +72,7 @@
                         <ColumnDefinition Width="10*"/>
                         <ColumnDefinition Width="4*" />
                     </Grid.ColumnDefinitions>
-                    <Button Grid.Column="1" Width="100" Height="40" Content="添加工具" FontSize="16" BorderBrush="AliceBlue" />
+                    <Button Grid.Column="1" Width="100" Height="40" Content="添加工具" FontSize="16" BorderBrush="AliceBlue" Click="AddTools" />
                 </Grid>
             </TabItem>
         </TabControl>

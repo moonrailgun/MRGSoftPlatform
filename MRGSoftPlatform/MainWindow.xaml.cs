@@ -16,6 +16,7 @@ using System.Reflection;
 using System.IO;
 using MRGPluginInterface;
 using MRGSoftPlatform.UI;
+using MRGSoftPlatform.Windows;
 
 namespace MRGSoftPlatform
 {
@@ -170,6 +171,12 @@ namespace MRGSoftPlatform
                     break;
                 }
             }
+        }
+
+        private void AddTools(object sender, RoutedEventArgs e)
+        {
+            Window window = new AddToolsWindow();
+            window.Show();
         }
     }
 }
